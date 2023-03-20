@@ -14,7 +14,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        return true
+        guard let directoryURL = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first else {
+               return false
+           }
+        //let markImage = File(name: "No Mark", type: .Undefined, size: 0, creationDate: .now, isDirectory: false, url: .documentsDirectory)
+        //markImage.fileImage = UIImage(named: "Back")
+        //Dfiles.append(markImage)
+        
+           getFiles(inDirectory: directoryURL)
+        
+           return true
     }
 
     // MARK: UISceneSession Lifecycle

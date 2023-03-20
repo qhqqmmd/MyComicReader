@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		105F91AD29B9408900AEE777 /* CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105F91AC29B9408900AEE777 /* CollectionView.swift */; };
+		105F91AF29B95F3500AEE777 /* DetilView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105F91AE29B95F3500AEE777 /* DetilView.swift */; };
+		105F91B629B9AB5C00AEE777 /* SSZipArchive in Resources */ = {isa = PBXBuildFile; fileRef = 105F91B529B9AB5C00AEE777 /* SSZipArchive */; };
+		105F91B829B9AB6300AEE777 /* minizip in Resources */ = {isa = PBXBuildFile; fileRef = 105F91B729B9AB6300AEE777 /* minizip */; };
+		105F91BB29B9AFD700AEE777 /* ZipArchive in Frameworks */ = {isa = PBXBuildFile; productRef = 105F91BA29B9AFD700AEE777 /* ZipArchive */; };
+		105F91BD29B9AFFD00AEE777 /* libz.1.2.8.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 105F91BC29B9AFFD00AEE777 /* libz.1.2.8.tbd */; };
+		105F91BF29B9B00B00AEE777 /* libiconv.2.4.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 105F91BE29B9B00B00AEE777 /* libiconv.2.4.0.tbd */; };
+		105F91C129B9B02000AEE777 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 105F91C029B9B02000AEE777 /* Security.framework */; };
+		105F91C329BAA24300AEE777 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105F91C229BAA24300AEE777 /* ImageView.swift */; };
+		105F91C729BBDB0A00AEE777 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105F91C629BBDB0A00AEE777 /* SettingView.swift */; };
+		105F91C929BBE10D00AEE777 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105F91C829BBE10D00AEE777 /* PageView.swift */; };
+		1090B2F129B6FB9A006DCF4F /* FileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1090B2F029B6FB9A006DCF4F /* FileView.swift */; };
+		1090B2F329B6FF91006DCF4F /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1090B2F229B6FF91006DCF4F /* File.swift */; };
 		109A31CC29B3FE1600516167 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109A31CB29B3FE1600516167 /* AppDelegate.swift */; };
 		109A31CE29B3FE1600516167 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109A31CD29B3FE1600516167 /* SceneDelegate.swift */; };
 		109A31D029B3FE1600516167 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109A31CF29B3FE1600516167 /* ViewController.swift */; };
@@ -36,6 +49,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		105F91AC29B9408900AEE777 /* CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionView.swift; sourceTree = "<group>"; };
+		105F91AE29B95F3500AEE777 /* DetilView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetilView.swift; sourceTree = "<group>"; };
+		105F91B329B9A56600AEE777 /* ZipArchive-master */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "ZipArchive-master"; path = "../../Downloads/ZipArchive-master"; sourceTree = "<group>"; };
+		105F91B529B9AB5C00AEE777 /* SSZipArchive */ = {isa = PBXFileReference; lastKnownFileType = folder; path = SSZipArchive; sourceTree = "<group>"; };
+		105F91B729B9AB6300AEE777 /* minizip */ = {isa = PBXFileReference; lastKnownFileType = folder; path = minizip; sourceTree = "<group>"; };
+		105F91BC29B9AFFD00AEE777 /* libz.1.2.8.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.8.tbd; path = usr/lib/libz.1.2.8.tbd; sourceTree = SDKROOT; };
+		105F91BE29B9B00B00AEE777 /* libiconv.2.4.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.2.4.0.tbd; path = usr/lib/libiconv.2.4.0.tbd; sourceTree = SDKROOT; };
+		105F91C029B9B02000AEE777 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		105F91C229BAA24300AEE777 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		105F91C629BBDB0A00AEE777 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		105F91C829BBE10D00AEE777 /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
+		1090B2F029B6FB9A006DCF4F /* FileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileView.swift; sourceTree = "<group>"; };
+		1090B2F229B6FF91006DCF4F /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		109A31C829B3FE1600516167 /* MyComicReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyComicReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		109A31CB29B3FE1600516167 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		109A31CD29B3FE1600516167 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +82,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				105F91C129B9B02000AEE777 /* Security.framework in Frameworks */,
+				105F91BF29B9B00B00AEE777 /* libiconv.2.4.0.tbd in Frameworks */,
+				105F91BD29B9AFFD00AEE777 /* libz.1.2.8.tbd in Frameworks */,
+				105F91BB29B9AFD700AEE777 /* ZipArchive in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,13 +106,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		105F91B229B9A56600AEE777 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				105F91B329B9A56600AEE777 /* ZipArchive-master */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		105F91B929B9AFD700AEE777 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				105F91C029B9B02000AEE777 /* Security.framework */,
+				105F91BE29B9B00B00AEE777 /* libiconv.2.4.0.tbd */,
+				105F91BC29B9AFFD00AEE777 /* libz.1.2.8.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		109A31BF29B3FE1600516167 = {
 			isa = PBXGroup;
 			children = (
+				105F91B229B9A56600AEE777 /* Packages */,
 				109A31CA29B3FE1600516167 /* MyComicReader */,
 				109A31E129B3FE1700516167 /* MyComicReaderTests */,
 				109A31EB29B3FE1700516167 /* MyComicReaderUITests */,
 				109A31C929B3FE1600516167 /* Products */,
+				105F91B929B9AFD700AEE777 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +149,22 @@
 		109A31CA29B3FE1600516167 /* MyComicReader */ = {
 			isa = PBXGroup;
 			children = (
+				105F91B729B9AB6300AEE777 /* minizip */,
+				105F91B529B9AB5C00AEE777 /* SSZipArchive */,
 				109A31CB29B3FE1600516167 /* AppDelegate.swift */,
 				109A31CD29B3FE1600516167 /* SceneDelegate.swift */,
 				109A31CF29B3FE1600516167 /* ViewController.swift */,
 				109A31D129B3FE1600516167 /* Main.storyboard */,
+				105F91AE29B95F3500AEE777 /* DetilView.swift */,
 				109A31D429B3FE1700516167 /* Assets.xcassets */,
 				109A31D629B3FE1700516167 /* LaunchScreen.storyboard */,
 				109A31D929B3FE1700516167 /* Info.plist */,
+				1090B2F029B6FB9A006DCF4F /* FileView.swift */,
+				1090B2F229B6FF91006DCF4F /* File.swift */,
+				105F91AC29B9408900AEE777 /* CollectionView.swift */,
+				105F91C229BAA24300AEE777 /* ImageView.swift */,
+				105F91C629BBDB0A00AEE777 /* SettingView.swift */,
+				105F91C829BBE10D00AEE777 /* PageView.swift */,
 			);
 			path = MyComicReader;
 			sourceTree = "<group>";
@@ -143,6 +202,9 @@
 			dependencies = (
 			);
 			name = MyComicReader;
+			packageProductDependencies = (
+				105F91BA29B9AFD700AEE777 /* ZipArchive */,
+			);
 			productName = MyComicReader;
 			productReference = 109A31C829B3FE1600516167 /* MyComicReader.app */;
 			productType = "com.apple.product-type.application";
@@ -234,6 +296,8 @@
 				109A31D829B3FE1700516167 /* LaunchScreen.storyboard in Resources */,
 				109A31D529B3FE1700516167 /* Assets.xcassets in Resources */,
 				109A31D329B3FE1600516167 /* Main.storyboard in Resources */,
+				105F91B629B9AB5C00AEE777 /* SSZipArchive in Resources */,
+				105F91B829B9AB6300AEE777 /* minizip in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +322,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				105F91C329BAA24300AEE777 /* ImageView.swift in Sources */,
+				105F91AD29B9408900AEE777 /* CollectionView.swift in Sources */,
+				1090B2F329B6FF91006DCF4F /* File.swift in Sources */,
+				105F91C729BBDB0A00AEE777 /* SettingView.swift in Sources */,
+				1090B2F129B6FB9A006DCF4F /* FileView.swift in Sources */,
+				105F91C929BBE10D00AEE777 /* PageView.swift in Sources */,
+				105F91AF29B95F3500AEE777 /* DetilView.swift in Sources */,
 				109A31D029B3FE1600516167 /* ViewController.swift in Sources */,
 				109A31CC29B3FE1600516167 /* AppDelegate.swift in Sources */,
 				109A31CE29B3FE1600516167 /* SceneDelegate.swift in Sources */,
@@ -437,6 +508,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HC32GS5457;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MyComicReader/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -464,6 +536,16 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HC32GS5457;
+				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = (
+					HAVE_INTTYPES_H,
+					HAVE_PKCRYPT,
+					HAVE_STDINT_H,
+					HAVE_WZAES,
+					HAVE_ZLIB,
+					ZLIB_COMPAT,
+					"$(inherited)",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MyComicReader/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -596,6 +678,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		105F91BA29B9AFD700AEE777 /* ZipArchive */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ZipArchive;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 109A31C029B3FE1600516167 /* Project object */;
 }
